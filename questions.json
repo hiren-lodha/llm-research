@@ -1,0 +1,273 @@
+{
+    "categorized_questions": {
+      "Food": [
+        {
+          "id": 1,
+          "text_en": "What are the most popular street foods in Mumbai?",
+          "text_hi": "मुंबई के सबसे लोकप्रिय स्ट्रीट फूड कौन-कौन से हैं?"
+        },
+        {
+          "id": 2,
+          "text_en": "What is the Dabbawala system and how does it work?",
+          "text_hi": "डब्बावाला प्रणाली क्या है और यह कैसे काम करती है?"
+        },
+        {
+          "id": 3,
+          "text_en": "Which cuisines are commonly available in Mumbai restaurants?",
+          "text_hi": "मुंबई के रेस्टोरेंट्स में कौन-कौन सी रसोइयाँ आम हैं?"
+        }
+      ],
+      "Culture": [
+        {
+          "id": 4,
+          "text_en": "How is Ganesh Chaturthi celebrated in Mumbai?",
+          "text_hi": "मुंबई में गणेश चतुर्थी कैसे मनाई जाती है?"
+        },
+        {
+          "id": 5,
+          "text_en": "What is the significance of Bollywood in Mumbai's culture?",
+          "text_hi": "मुंबई की संस्कृति में बॉलीवुड का क्या महत्व है?"
+        },
+        {
+          "id": 6,
+          "text_en": "What languages are widely spoken in Mumbai?",
+          "text_hi": "मुंबई में कौन-कौन सी भाषाएँ सबसे ज्यादा बोली जाती हैं?"
+        },
+        {
+          "id": 7,
+          "text_en": "Which cultural festivals are unique to Mumbai?",
+          "text_hi": "मुंबई में कौन से सांस्कृतिक त्यौहार खास तौर पर मनाए जाते हैं?"
+        },
+        {
+          "id": 8,
+          "text_en": "How does Mumbai reflect a mix of different cultures?",
+          "text_hi": "मुंबई विभिन्न संस्कृतियों का मेल कैसे दर्शाता है?"
+        },
+        {
+          "id": 9,
+          "text_en": "What are some popular art galleries or theatres in Mumbai?",
+          "text_hi": "मुंबई में कुछ प्रसिद्ध आर्ट गैलरी या थिएटर कौन से हैं?"
+        },
+        {
+          "id": 10,
+          "text_en": "How has migration influenced Mumbai’s culture?",
+          "text_hi": "प्रवास ने मुंबई की संस्कृति को कैसे प्रभावित किया है?"
+        },
+        {
+          "id": 11,
+          "text_en": "What role do local communities play in preserving Mumbai’s traditions?",
+          "text_hi": "स्थानीय समुदाय मुंबई की परंपराओं को बनाए रखने में क्या भूमिका निभाते हैं?"
+        }
+      ],
+      "Economy & Industry": [
+        {
+          "id": 12,
+          "text_en": "Why is Mumbai called the financial capital of India?",
+          "text_hi": "मुंबई को भारत की आर्थिक राजधानी क्यों कहा जाता है?"
+        },
+        {
+          "id": 13,
+          "text_en": "What are the major industries in Mumbai?",
+          "text_hi": "मुंबई में प्रमुख उद्योग कौन-कौन से हैं?"
+        },
+        {
+          "id": 14,
+          "text_en": "How does the film industry contribute to Mumbai's economy?",
+          "text_hi": "फिल्म इंडस्ट्री मुंबई की अर्थव्यवस्था में कैसे योगदान देती है?"
+        },
+        {
+          "id": 15,
+          "text_en": "What is the role of the Mumbai port in international trade?",
+          "text_hi": "अंतरराष्ट्रीय व्यापार में मुंबई बंदरगाह की क्या भूमिका है?"
+        },
+        {
+          "id": 16,
+          "text_en": "How do start-ups contribute to Mumbai's economy?",
+          "text_hi": "स्टार्टअप मुंबई की अर्थव्यवस्था में कैसे योगदान देते हैं?"
+        },
+        {
+          "id": 17,
+          "text_en": "Which areas in Mumbai are known as commercial hubs?",
+          "text_hi": "मुंबई के कौन से इलाके व्यापारिक केंद्र माने जाते हैं?"
+        },
+        {
+          "id": 18,
+          "text_en": "What is the impact of real estate on Mumbai's economy?",
+          "text_hi": "मुंबई की अर्थव्यवस्था पर रियल एस्टेट का क्या प्रभाव है?"
+        },
+        {
+          "id": 19,
+          "text_en": "How has Mumbai’s economy changed in the last 20 years?",
+          "text_hi": "पिछले 20 वर्षों में मुंबई की अर्थव्यवस्था में क्या बदलाव आए हैं?"
+        }
+      ],
+      "Demographics": [
+        {
+          "id": 20,
+          "text_en": "What is the current population of Mumbai?",
+          "text_hi": "मुंबई की वर्तमान जनसंख्या कितनी है?"
+        },
+        {
+          "id": 21,
+          "text_en": "What is the literacy rate in Mumbai?",
+          "text_hi": "मुंबई में साक्षरता दर कितनी है?"
+        },
+        {
+          "id": 22,
+          "text_en": "Which religious groups are prominent in Mumbai?",
+          "text_hi": "मुंबई में प्रमुख धार्मिक समुदाय कौन-कौन से हैं?"
+        },
+        {
+          "id": 23,
+          "text_en": "What is the gender ratio in Mumbai?",
+          "text_hi": "मुंबई में लिंगानुपात क्या है?"
+        },
+        {
+          "id": 24,
+          "text_en": "How many people live in slums in Mumbai?",
+          "text_hi": "मुंबई की झुग्गियों में कितने लोग रहते हैं?"
+        },
+        {
+          "id": 25,
+          "text_en": "How has migration affected Mumbai's population?",
+          "text_hi": "प्रवास ने मुंबई की जनसंख्या को कैसे प्रभावित किया है?"
+        },
+        {
+          "id": 26,
+          "text_en": "What are the main employment sectors for Mumbai's population?",
+          "text_hi": "मुंबई की आबादी के लिए प्रमुख रोजगार क्षेत्र कौन-कौन से हैं?"
+        },
+        {
+          "id": 27,
+          "text_en": "How does the age distribution in Mumbai look like?",
+          "text_hi": "मुंबई में आयु वर्ग का वितरण कैसा है?"
+        }
+      ],
+      "History": [
+        {
+          "id": 28,
+          "text_en": "What is the origin of the name 'Mumbai'?",
+          "text_hi": "'मुंबई' नाम की उत्पत्ति कैसे हुई?"
+        },
+        {
+          "id": 29,
+          "text_en": "How did Mumbai develop during British rule?",
+          "text_hi": "ब्रिटिश शासन के दौरान मुंबई का विकास कैसे हुआ?"
+        },
+        {
+          "id": 30,
+          "text_en": "What is the history of the Gateway of India?",
+          "text_hi": "गेटवे ऑफ इंडिया का इतिहास क्या है?"
+        },
+        {
+          "id": 31,
+          "text_en": "How did the seven islands become modern-day Mumbai?",
+          "text_hi": "सात द्वीप मिलकर आधुनिक मुंबई कैसे बने?"
+        },
+        {
+          "id": 32,
+          "text_en": "When did Mumbai become part of Maharashtra?",
+          "text_hi": "मुंबई महाराष्ट्र का हिस्सा कब बनी?"
+        },
+        {
+          "id": 33,
+          "text_en": "What role did Mumbai play in the independence movement?",
+          "text_hi": "स्वतंत्रता संग्राम में मुंबई की क्या भूमिका थी?"
+        },
+        {
+          "id": 34,
+          "text_en": "When did Bombay officially become Mumbai?",
+          "text_hi": "बॉम्बे का नाम आधिकारिक रूप से मुंबई कब पड़ा?"
+        },
+        {
+          "id": 35,
+          "text_en": "What was Mumbai’s role in India's industrial development?",
+          "text_hi": "भारत के औद्योगिक विकास में मुंबई की क्या भूमिका थी?"
+        },
+        {
+          "id": 36,
+          "text_en": "Which historical buildings in Mumbai are protected heritage sites?",
+          "text_hi": "मुंबई में कौन-कौन सी ऐतिहासिक इमारतें संरक्षित धरोहर हैं?"
+        }
+      ],
+      "Infrastructure": [
+        {
+          "id": 37,
+          "text_en": "What are the main modes of public transport in Mumbai?",
+          "text_hi": "मुंबई में सार्वजनिक परिवहन के प्रमुख साधन कौन-कौन से हैं?"
+        },
+        {
+          "id": 38,
+          "text_en": "How does the Mumbai Metro improve city travel?",
+          "text_hi": "मुंबई मेट्रो शहर की यात्रा को कैसे बेहतर बनाती है?"
+        },
+        {
+          "id": 39,
+          "text_en": "What is the condition of roads and highways in Mumbai?",
+          "text_hi": "मुंबई की सड़कों और राजमार्गों की स्थिति कैसी है?"
+        },
+        {
+          "id": 40,
+          "text_en": "What are the challenges of urban infrastructure in Mumbai?",
+          "text_hi": "मुंबई में शहरी ढांचे की क्या चुनौतियाँ हैं?"
+        },
+        {
+          "id": 41,
+          "text_en": "What is the significance of the Bandra-Worli Sea Link?",
+          "text_hi": "बांद्रा-वर्ली सी लिंक का क्या महत्व है?"
+        },
+        {
+          "id": 42,
+          "text_en": "How are slum redevelopment projects being handled in Mumbai?",
+          "text_hi": "मुंबई में झुग्गी पुनर्विकास परियोजनाएं कैसे चलाई जा रही हैं?"
+        },
+        {
+          "id": 43,
+          "text_en": "What efforts are being made to improve water supply in Mumbai?",
+          "text_hi": "मुंबई में जल आपूर्ति सुधारने के लिए क्या प्रयास किए जा रहे हैं?"
+        },
+        {
+          "id": 44,
+          "text_en": "How is Mumbai preparing for climate-resilient infrastructure?",
+          "text_hi": "जलवायु अनुकूल बुनियादी ढांचे के लिए मुंबई कैसे तैयारी कर रहा है?"
+        },
+        {
+          "id": 45,
+          "text_en": "What is the role of BMC in maintaining Mumbai's infrastructure?",
+          "text_hi": "मुंबई के बुनियादी ढांचे को बनाए रखने में बीएमसी की क्या भूमिका है?"
+        }
+      ],
+      "Current Affairs": [
+        {
+          "id": 46,
+          "text_en": "What major infrastructure projects are currently underway in Mumbai?",
+          "text_hi": "मुंबई में इस समय कौन-कौन से प्रमुख बुनियादी ढांचे के प्रोजेक्ट चल रहे हैं?"
+        },
+        {
+          "id": 47,
+          "text_en": "What recent measures has the BMC taken for monsoon preparedness?",
+          "text_hi": "बीएमसी ने मानसून की तैयारी के लिए हाल ही में कौन-कौन से कदम उठाए हैं?"
+        },
+        {
+          "id": 48,
+          "text_en": "What is the status of Mumbai’s Coastal Road project?",
+          "text_hi": "मुंबई के कोस्टल रोड प्रोजेक्ट की वर्तमान स्थिति क्या है?"
+        },
+        {
+          "id": 49,
+          "text_en": "How is Mumbai handling air pollution in 2024–2025?",
+          "text_hi": "2024–2025 में मुंबई वायु प्रदूषण से कैसे निपट रहा है?"
+        },
+        {
+          "id": 50,
+          "text_en": "What role did Mumbai play in recent elections or political events?",
+          "text_hi": "हाल ही के चुनावों या राजनीतिक घटनाओं में मुंबई की क्या भूमिका रही?"
+        },
+        {
+          "id": 51,
+          "text_en": "Are there any current public health initiatives running in Mumbai?",
+          "text_hi": "क्या मुंबई में वर्तमान में कोई सार्वजनिक स्वास्थ्य पहल चल रही है?"
+        }
+      ]
+    }
+  }
