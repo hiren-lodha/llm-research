@@ -4,11 +4,7 @@
 2025-05-04 13:55:54,757 - INFO - ==================================================
 
 2025-05-04 13:55:54,765 - INFO - Loaded 51 questions
-2025-05-04 13:55:56,799 - WARNING - Attempt 1 for phi3 failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 13:56:00,833 - WARNING - Attempt 2 for phi3 failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 13:56:04,869 - WARNING - Attempt 3 for phi3 failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 13:56:08,918 - WARNING - Attempt 1 for mistral failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 13:56:12,952 - WARNING - Attempt 2 for mistral failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+
 2025-05-04 13:57:19,008 - INFO - 
 ==================================================
 2025-05-04 13:57:19,008 - INFO - Mumbai LLM Evaluation - 51 Questions
@@ -125,19 +121,6 @@ Testing PHI3 (Sun May  4 13:57:38 2025)
 2025-05-04 17:12:23,387 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-05-04 17:12:23,395 - INFO - 
 ========================================
-Testing MISTRAL (Sun May  4 17:12:23 2025)
-========================================
-2025-05-04 17:20:37,056 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-04 17:37:00,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-04 17:44:29,858 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-04 20:36:07,656 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 500 Internal Server Error"
-2025-05-04 20:36:07,688 - ERROR - Error querying mistral: an error was encountered while running the model: read tcp 127.0.0.1:59244->127.0.0.1:59242: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
-2025-05-04 20:36:12,239 - ERROR - Error querying mistral: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 20:36:15,761 - ERROR - Error querying mistral: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 20:36:20,311 - ERROR - Error querying mistral: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 20:36:23,830 - ERROR - Error querying mistral: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
-2025-05-04 20:42:33,746 - INFO - 
-==================================================
 2025-05-04 20:42:33,746 - INFO - Mumbai LLM Evaluation - 51 Questions
 2025-05-04 20:42:33,747 - INFO - ==================================================
 
@@ -252,15 +235,7 @@ Testing PHI3 (Sun May  4 20:42:52 2025)
 2025-05-05 00:10:47,653 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-05-05 00:10:47,657 - INFO - 
 ========================================
-Testing MISTRAL (Mon May  5 00:10:47 2025)
-========================================
-2025-05-05 00:19:39,711 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-05 00:37:28,721 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-05 00:45:36,082 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-05 11:14:19,464 - INFO - 
-==================================================
-2025-05-05 11:14:19,464 - INFO - Mumbai LLM Evaluation - 51 Questions
-2025-05-05 11:14:19,464 - INFO - ==================================================
+
 
 2025-05-05 11:14:19,482 - INFO - Loaded 51 questions
 2025-05-05 11:14:41,282 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
@@ -371,11 +346,7 @@ Testing PHI3 (Mon May  5 11:14:41 2025)
 2025-05-05 15:27:15,453 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-05 15:27:50,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-05 15:27:52,783 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-05 15:27:52,783 - WARNING - Attempt 1 for mistral failed: model 'mistral' not found (status code: 404)
-2025-05-05 15:27:54,791 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-05 15:27:54,793 - WARNING - Attempt 2 for mistral failed: model 'mistral' not found (status code: 404)
-2025-05-05 15:27:56,798 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-05 15:27:56,798 - WARNING - Attempt 3 for mistral failed: model 'mistral' not found (status code: 404)
+
 2025-05-05 15:28:49,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-05-05 15:28:49,976 - INFO - 
 ========================================
@@ -486,16 +457,7 @@ Testing GEMMA:7B (Mon May  5 15:28:49 2025)
 2025-05-06 01:28:44,531 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-05-06 01:28:44,544 - INFO - 
 ========================================
-Testing NEURAL-CHAT (Tue May  6 01:28:44 2025)
-========================================
-2025-05-06 01:30:37,489 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 01:39:31,331 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 01:42:17,682 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 02:28:57,753 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 02:34:31,686 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 02:40:49,760 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 02:45:42,142 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-06 07:30:02,916 - INFO - 
+
 ==================================================
 2025-05-06 07:30:02,916 - INFO - Mumbai LLM Evaluation - 51 Questions
 2025-05-06 07:30:02,916 - INFO - ==================================================
@@ -1068,12 +1030,7 @@ Testing PHI3 (Sat May 10 08:27:26 2025)
 2025-05-10 14:18:02,397 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-10 14:19:46,671 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-10 14:20:28,695 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-10 14:20:28,706 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-10 14:20:28,711 - WARNING - Attempt 1 for falcon:7b failed: model 'falcon:7b' not found (status code: 404)
-2025-05-10 14:20:30,716 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-10 14:20:30,716 - WARNING - Attempt 2 for falcon:7b failed: model 'falcon:7b' not found (status code: 404)
-2025-05-10 14:20:32,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-10 14:20:32,722 - WARNING - Attempt 3 for falcon:7b failed: model 'falcon:7b' not found (status code: 404)
+
 2025-05-10 14:21:22,617 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
 2025-05-10 14:21:22,627 - INFO - 
 ========================================
@@ -1396,177 +1353,3 @@ Testing LLAMA3 (Mon May 12 14:22:28 2025)
 2025-05-13 04:43:21,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-13 04:45:48,300 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-05-13 04:45:48,310 - INFO - Results saved to: D:\llm-thesis-project\ollama_models\results
-2025-05-20 08:32:50,247 - INFO - ==================================================
-2025-05-20 08:32:50,303 - INFO - ==================================================
-2025-05-20 08:32:50,355 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-20 08:32:50,357 - WARNING - falcon:7b warm-up failed (1/3): model 'falcon:7b' not found (status code: 404)
-2025-05-20 08:32:53,365 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-20 08:32:53,366 - WARNING - falcon:7b warm-up failed (2/3): model 'falcon:7b' not found (status code: 404)
-2025-05-20 08:32:56,373 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
-2025-05-20 08:32:56,374 - WARNING - falcon:7b warm-up failed (3/3): model 'falcon:7b' not found (status code: 404)
-2025-05-20 08:33:10,890 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:39:41,186 - INFO - ==================================================
-2025-05-20 08:39:41,194 - INFO - ==================================================
-2025-05-20 08:40:11,813 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:40:14,840 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:40:31,410 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
-2025-05-20 08:40:31,414 - WARNING - deepseek-llm warm-up failed (1/3): llama runner process has terminated: exit status 2 (status code: 500)
-2025-05-20 08:41:18,502 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:41:41,532 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:42:22,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:47:13,149 - INFO - ==================================================
-2025-05-20 08:47:13,149 - INFO - Mumbai LLM Evaluation - Now including Falcon
-2025-05-20 08:47:13,151 - INFO - ==================================================
-2025-05-20 08:47:13,151 - WARNING - Expected 51 questions, found 1
-2025-05-20 08:47:41,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:47:41,525 - INFO - phi3:latest is ready
-2025-05-20 08:47:41,525 - INFO - Starting model: phi3:latest
-2025-05-20 08:47:50,016 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:47:50,016 - INFO - falcon:7b-instruct is ready
-2025-05-20 08:47:50,016 - INFO - Starting model: falcon:7b-instruct
-2025-05-20 08:48:05,475 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
-2025-05-20 08:48:05,478 - WARNING - deepseek-llm:latest warm-up failed (1/3): llama runner process has terminated: exit status 2 (status code: 500)
-2025-05-20 08:48:50,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:48:50,054 - INFO - llama3:latest is ready
-2025-05-20 08:48:50,062 - INFO - Starting model: llama3:latest
-2025-05-20 08:49:12,245 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:49:12,247 - INFO - gemma:7b is ready
-2025-05-20 08:49:12,247 - INFO - Starting model: gemma:7b
-2025-05-20 08:49:51,648 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:49:51,672 - INFO - deepseek-llm:latest is ready
-2025-05-20 08:49:51,672 - INFO - Starting model: deepseek-llm:latest
-2025-05-20 08:54:39,490 - INFO - ==================================================
-2025-05-20 08:54:39,490 - INFO - Mumbai LLM Evaluation – Including Falcon and flat JSON load
-2025-05-20 08:54:39,490 - INFO - ==================================================
-2025-05-20 08:54:39,490 - INFO - Loaded 51 questions
-2025-05-20 08:55:05,124 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:55:05,129 - INFO - phi3:latest is ready
-2025-05-20 08:55:05,129 - INFO - Starting model: phi3:latest
-2025-05-20 08:55:15,248 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:55:15,250 - INFO - falcon:7b-instruct is ready
-2025-05-20 08:55:15,250 - INFO - Starting model: falcon:7b-instruct
-2025-05-20 08:55:30,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
-2025-05-20 08:55:30,493 - WARNING - deepseek-llm:latest warm-up failed (1/3): llama runner process has terminated: exit status 2 (status code: 500)
-2025-05-20 08:55:53,303 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 500 Internal Server Error"
-2025-05-20 08:55:55,597 - WARNING - phi3:latest query failed (attempt 1): llama runner process has terminated: exit status 2 (status code: 500)
-2025-05-20 08:56:28,094 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:56:28,114 - INFO - llama3:latest is ready
-2025-05-20 08:56:28,120 - INFO - Starting model: llama3:latest
-2025-05-20 08:56:58,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-20 08:56:58,498 - INFO - gemma:7b is ready
-2025-05-20 08:56:58,498 - INFO - Starting model: gemma:7b
-2025-05-20 09:01:59,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-20 09:03:01,726 - INFO - ==================================================
-2025-05-20 09:03:01,726 - INFO - Mumbai LLM Evaluation - Now including Falcon
-2025-05-20 09:03:01,726 - INFO - ==================================================
-2025-05-20 09:03:01,727 - WARNING - Expected 51 questions, found 1
-2025-05-21 07:26:40,048 - INFO - ============================================================
-2025-05-21 07:26:40,048 - INFO - Falcon 7B Instruct Evaluation - Model: falcon:7b-instruct
-2025-05-21 07:26:40,048 - INFO - ============================================================
-2025-05-21 07:26:40,050 - INFO - Loaded 51 questions from questions.json
-2025-05-21 07:26:56,140 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
-2025-05-21 07:26:56,141 - INFO - falcon:7b-instruct warm-up successful. Response: Mumbai is a city of diverse cultures and cuisines....
-2025-05-21 07:34:36,372 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 07:35:06,283 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 07:39:41,806 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 07:45:19,813 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 07:53:46,430 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:00:56,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:14:38,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:15:51,721 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:22:30,892 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:25:49,915 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:34:48,788 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:36:50,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:41:57,049 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:42:44,415 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:46:29,336 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:48:31,355 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:50:25,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:52:30,896 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 08:54:14,118 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:02:05,347 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:05:33,978 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:08:12,337 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:12:40,526 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:18:07,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:22:16,943 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:25:20,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:30:49,956 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:37:25,916 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:46:37,444 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:50:25,777 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:53:43,965 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 09:57:43,651 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:01:08,578 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:10:51,385 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:13:13,912 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:27:14,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:28:24,170 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:30:11,618 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:32:16,086 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:32:19,280 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:51:28,349 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:53:30,416 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:55:03,940 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 10:58:06,593 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:12:14,376 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:15:50,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:15:50,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:19:58,763 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:20:55,522 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:24:45,803 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:26:47,937 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:27:59,490 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:34:44,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:41:35,387 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:43:03,324 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:47:40,090 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:48:56,150 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:51:26,944 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:56:29,223 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 11:59:32,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:15:16,152 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:18:03,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:19:45,165 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:21:45,294 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:27:10,355 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:40:19,430 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:41:55,579 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:44:56,815 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:47:21,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:52:11,973 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:55:59,397 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:56:02,596 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 12:57:40,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:01:59,847 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:04:02,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:15:18,970 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:16:44,498 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:19:21,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:23:46,269 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:25:30,714 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:30:42,962 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:40:21,571 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:42:42,517 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:48:27,752 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:49:47,972 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:54:55,350 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:57:01,321 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 13:59:13,673 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:03:13,173 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:08:10,301 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:16:04,204 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:18:46,447 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:19:27,440 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:24:11,051 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:25:20,574 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:29:55,178 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:34:17,572 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:44:20,436 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:46:23,006 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:56:42,428 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 14:59:46,142 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 15:03:52,058 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-05-21 15:03:52,075 - INFO - Evaluation completed in 457.20 minutes
-2025-05-21 15:03:52,077 - INFO - Results saved with timestamp in filename
